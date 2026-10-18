@@ -27,7 +27,7 @@ Football (or soccer to my American readers) is full of clichés: "It's a game of
 
 ## Poisson Distribution
 
-The model is founded on the number of goals scored/conceded by each team. Teams that have been higher scorers in the past have a greater likelihood of scoring goals in the future. We'll import all match results from the recently concluded Premier League (2016/17) season. There's various sources for this data out there ([kaggle](https://www.kaggle.com/hugomathien/soccer), [football-data.co.uk](http://www.football-data.co.uk/englandm.php), [github](https://github.com/jalapic/engsoccerdata), [API](http://api.football-data.org/index)). I built an [R wrapper for that API](https://github.com/dashee87/footballR), but I'll go the csv route this time around. 
+The model is founded on the number of goals scored/conceded by each team. Teams that have been higher scorers in the past have a greater likelihood of scoring goals in the future. We'll import all match results from the recently concluded Premier League (2016/17) season. There's various sources for this data out there ([kaggle](https://www.kaggle.com/hugomathien/soccer), [football-data.co.uk](http://www.football-data.co.uk/englandm.php), [github](https://github.com/jalapic/engsoccerdata), [football-data.org API](https://www.football-data.org/) (or the keyless [Football Charts JSON API](https://www.football-charts.com/developers))). I built an [R wrapper for that API](https://github.com/dashee87/footballR), but I'll go the csv route this time around. 
 
 
 ```python
